@@ -1,0 +1,14 @@
+{
+    "name": "artisangora/hexagon-boilerplate",
+    "require": {
+        "phpunit/phpunit": "^9.2",
+        "ramsey/uuid": "^4.0",
+        "webmozart/assert": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {"HexagonBoilerplate\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"HexagonBoilerplate\\Tests\\": "tests/"}
+    }
+}
